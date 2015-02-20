@@ -1,5 +1,5 @@
 # excelr
-Basic utility in Java that reads both XLSX, XLS and CSV files and converts Excel rows to Java Objects.
+Basic utility in Java that reads both XLSX, XLS and CSV files and converts Excel rows to Java Objects. It uses Apache POI and OpenCSV for reading Excel files.
 
 Usage example:
 
