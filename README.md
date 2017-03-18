@@ -3,7 +3,7 @@ Basic utility in Java that reads both XLSX, XLS and CSV files and converts Excel
 
 Usage example:
 
-		RowConverter<Country> converter = (row) -> new Country(row[0], row[1]);
+		RowConverter<Country> converter = (Object[] row) -> new Country((String)row[0], (String)row[1]);
 		
 		ExcelReader<Country> reader = ExcelReader.builder(Country.class)
 		     .converter(converter)
